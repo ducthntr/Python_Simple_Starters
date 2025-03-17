@@ -21,12 +21,13 @@ class EmojiCipher:
         return ''.join(self.reverse_map.get(c, c) for c in text)
 
 # USE
-cipher = EmojiCipher()
-message = input("What would you like to encrypt?")
-encrypted = cipher.encrypt(message)
-decrypted = cipher.decrypt(encrypted)
 
-print(f"Original: {message}")
-print(f"Encrypted: {encrypted}")
-print(f"Decrypted: {decrypted}")
+#cipher = EmojiCipher()
+#message = input("What would you like to encrypt?")
+#encrypted = cipher.encrypt(message)
+#decrypted = cipher.decrypt(encrypted)
+
+#print(f"Original: {message}")
+#print(f"Encrypted: {encrypted}")
+#print(f"Decrypted: {decrypted}")
 
