@@ -6,7 +6,7 @@ File management:
 		lines = file.readlines()
 	Make list from lines: #strip newline characters
 		my_list = [line.strip() for line in lines]
-	Make tabel [line # : line string}:
+	Make table [line # : line string}:
 		for line_number, line in enumerate(file, 1):
 	
 Keyword Search:
